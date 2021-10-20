@@ -1,0 +1,7 @@
+#.env
+__pycache__/
+env/
+celerybeat-schedule
+celerybeat-schedule.db
+data/
+dump.rdb
