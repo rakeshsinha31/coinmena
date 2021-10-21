@@ -26,8 +26,8 @@ http://0.0.0.0:8000/api-token-auth/
 ## Calling the APIs
 pass the token under Authorization Headers
 ```
-GET - http://0.0.0.0:8080/api/v1/quotes
-POST - http://127.0.0.1:8080/api/v1/quotes/
+GET - http://0.0.0.0:8000/api/v1/quotes
+POST - http://0.0.0.0:8000/api/v1/quotes/
 ```
 
 ## Docker
