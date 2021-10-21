@@ -10,11 +10,25 @@
 
 ## Run Locally
 ```shell
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
 python manage.py runserver
+
 ```
 
-## Running Test
+## Creating User token
+To get the API token, any REST client (eg. Postman) or curl could be used for calling the end point. Pass the Username and password as Headers:
+```shell
+http://0.0.0.0:8000/api-token-auth/
+```
 
+## Calling the APIs
+pass the token under Authorization Headers
+```
+GET - http://0.0.0.0:8080/api/v1/quotes
+POST - http://127.0.0.1:8080/api/v1/quotes/
+```
 
 ## Docker
 Build images with:
